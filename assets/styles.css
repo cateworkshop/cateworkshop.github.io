@@ -168,14 +168,16 @@ p:last-child {
 }
 
 .visual-demo {
-  max-width: 900px;
-  margin: 0;
+  width: min(100%, 780px);
+  margin: 28px 0 0;
 }
 
 .visual-demo img {
   display: block;
   width: 100%;
+  max-width: 100%;
   height: auto;
+  object-fit: contain;
   border: 1px solid var(--line);
 }
 
