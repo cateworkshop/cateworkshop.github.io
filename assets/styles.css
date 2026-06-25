@@ -167,6 +167,24 @@ p:last-child {
   margin: 0;
 }
 
+.visual-demo {
+  max-width: 900px;
+  margin: 0;
+}
+
+.visual-demo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+}
+
+.visual-demo figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .columns {
   columns: 2;
   column-gap: 48px;
